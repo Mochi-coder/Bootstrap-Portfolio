@@ -7,16 +7,18 @@
     <title>Bootstrap Portfolio</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-<link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <header id="page-top">
 
      <!-- Navigation -->
     <section class="jumbotron jumbotron-fluid">
         <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
                 <div class="container">
-                  <a class="navbar-brand js-scroll-trigger" href="#page-top">Portfolio</a>
+                  <a class="navbar-brand portfolio js-scroll-trigger" href="#page-top">Portfolio</a>
                   <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                       <li class="nav-item">
@@ -37,7 +39,7 @@
           <div class="row h-100">
             <div class="col-lg-7 my-auto">
               <div class="header-content mx-auto">
-                <h1 class="mb-5">Lisa Luu</h1>
+                <h1 class="name mb-5">Lisa Luu</h1>
                 <h2>Web Developer (in training)</h2>
                 <p>Hello, I'm Lisa! I am a student in the Front-End Web Developer bootcamp. Bootcamp has only just begun,
                     but I am ready for this new and exciting journey! Here's what I have accomplished so far...</p>
@@ -68,16 +70,12 @@
         <li class="list-group-item list-group-item-warning">Bootstrap</li>
         <li class="list-group-item list-group-item-warning">JQuery and many more...</li>
       </ul>
-              <div class="badges">
-                <a class="badge-link" href="#"><img src="images/google-play-badge.png" alt=""></a>
-                <a class="badge-link" href="#"><img src="images/app-store-badge.png" alt=""></a>
-              </div>
             </div>
           </div>
         </div>
       </section>
 
-<div class="container-fluid">
+<div class="container-fluid bg-warning" id="work">
     <div class="row">
         <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
             <div class="card">
@@ -89,7 +87,6 @@
               </div>
             </div>
           </div>
-
           <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
             <div class="card">
               <img src="./images/Horiseon.png" class="card-img-top" alt="horiseon-image">
@@ -122,11 +119,20 @@
           </div>
 </body>
 
-      <footer class="footerLinks">
-        <h3 id="contact">Contact Me</h3>
-        <a href="https://www.linkedin.com/in/lisa-luu-694135195" class="linkedIn">LinkedIn</a>
-        <a href="mailto: luu.lisa87@gmail.com" class="email">Email</a>
-        <a href="https://github.com/Mochi-coder" class="github">GitHub</a>
-      </footer>
+<footer class="contact-section bg-warning" id="aboutMe">
+        <h3 class="name text-center">Lisa Luu</h3>
+        <p class="text-center mx-5">Here's a few facts about me; I enjoy cooking/baking, swimming and travelling. I have been working in the pharmaceutical industry for over 15 years, but I now feel it's time for new challenges and to get into something I'm really passionate about. I hope to utilize the skills I've learned in bootcamp to demonstrate how far I have come and what I have achieved.
+        This journey is only just beginning...! 
+        </p>
+        <section class="text-center" id="contact">
+            <button type="button" class="btn btn-outline-primary">LinkedIn<a href="https://www.linkedin.com/in/lisa-luu-694135195" class="linkedIn"></a></button>
+            <button type="button" class="btn btn-outline-danger">Email<a href="mailto: luu.lisa87@gmail.com" class="email"></a></button>
+            <button type="button" class="btn btn-outline-dark">GitHub<a href="https://github.com/Mochi-coder" class="github"></a></button>
+        </section>
+       
 </footer>
 </html>
+
+
+
+  
