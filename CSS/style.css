@@ -3,22 +3,93 @@
     width: 100%;
     background-size: cover;
     z-index: 10;
-  }
+}
 
-  .portfolio {
+.portfolio {
     font-family: 'Secular One', sans-serif;
-font-size: 30px;
-font-weight: 500;
-  }
+    font-size: 30px;
+    font-weight: 500;
+}
 
-.card-img-top {
-    width:100%;
-    height: 15vw;
-    object-fit: cover;
+.jumbotron {
+    position: relative;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-top: 150px;
+    color: rgb(92, 31, 124);
+    background-image: url("../images/sunset.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumbotron .header-content {
+    max-width: 500px;
+}
+
+.img-fluid {
+    border-radius: 25%;
+}
+
+.intro {
+    font-weight: 300;
 }
 
 .name {
-    font-family: 'Signika', sans-serif;;
+    font-family: 'Signika', sans-serif;
+    font-weight: 800;
 }
 
-  
+.skills {
+    background-color: rgb(68, 7, 125);
+    padding: 50px;
+}
+
+h2 {
+    color: rgb(226, 226, 77);
+    padding: 20px;
+}
+
+.list-group {
+    border-radius: 50%;
+    border: solid 10px blue;
+    font-weight: 250;
+    
+}
+
+.work {
+background-color: lightgray
+}
+
+.card {
+    margin-top: 40px;
+    padding: auto;
+    border-radius: 5%;
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-text {
+    margin-top: 20px;
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.btn {
+    padding: 10px;
+}
+
+.contact-section {
+    background-color: lightgray;
+    padding: 10%;
+}
+
+h3 {
+    padding: 20px;
+    color: navy;
+    font-size: 45px;
+}
