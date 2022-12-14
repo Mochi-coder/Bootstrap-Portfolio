@@ -7,6 +7,7 @@ This portfolio was created using Bootstrap! It includes components such as:
 <li> Cards
 <li> Buttons
 <li> Navbar
+
 This challenge demonstrates how much easier it is to create a webpage with the help of Bootstrap. 
 Difficulties I faced creating this portfolio was trying to ensure the height of the cards were all the same.
 
