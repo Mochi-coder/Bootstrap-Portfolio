@@ -75,6 +75,7 @@ h2 {
     background-size: cover;
     height: calc(100% - 15px);
     margin-bottom: 15px;
+    border: solid 5px rgb(120, 120, 198);
 }
 
 .card-text {
@@ -100,7 +101,7 @@ h2 {
 
 .contact-section {
     background-color: lightgray;
-    padding: 10%;
+    padding: 5%;
 }
 
 .flex-end {
